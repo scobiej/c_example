@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 
 #include "list.h"
@@ -10,7 +9,10 @@ int main() {
    insert(1);
    insert(40);
    insert(56); 
+   insert(66); 
+   insert(104); 
 
    printList();
-   return 0;
+
+   return EXIT_SUCCESS;
 }
