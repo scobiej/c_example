@@ -3,6 +3,7 @@
 
 struct node {
    int data;
+   int 
    struct node *next;
 };
 
